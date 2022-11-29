@@ -5,3 +5,18 @@ html, body {
     font-size: 1.3rem;
     padding: 70px;
 }
+
+button {
+    box-sizing: border-box;
+    min-width: 55px;
+    min-height: 55px;
+    font-size: 1.3rem;
+    margin: 10px;
+    box-shadow: 3px;
+    
+}
+
+button:hover {
+    background-color: gray;
+    color: green;
+}
