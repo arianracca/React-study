@@ -61,3 +61,18 @@
   .card img {
     width: 100%;
   }
+
+  button {
+    padding: 10px;
+    margin-top: 8px;
+    color: rebeccapurple;
+    background-color: aquamarine;
+    font-size: 1rem;
+    box-shadow: 2px;
+    transition: ease-in-out 1s;
+  }
+
+  button:hover {
+    color: rgb(255, 255, 255);
+    background-color: green;
+  }
