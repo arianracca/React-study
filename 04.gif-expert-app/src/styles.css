@@ -15,7 +15,7 @@
     font-size: 1.2rem;
     outline: none;
     padding: 10px 15px;
-    width: 90%;
+    width: 95%;
   }
   
   h2 {
@@ -48,6 +48,7 @@
     margin-bottom: 20px;
     margin-right: 20px;
     overflow: hidden;
+    transition: ease-in 1s;
   }
 
   .card:hover p,
@@ -55,17 +56,21 @@
     background-color: rgb(44, 88, 41);
     color: white;
     transition: ease-in 2s;
-    transition: ease-out 2s;
-    box-shadow: 10px rgba(255, 0, 0, 0.50);
+  }
+
+  .card:hover {
+    box-shadow: 8px 8px 8px rgba(118, 11, 11, 0.5);
+    transition: ease-in 2s;
   }
   
   .card p {
     background-color: white;
     flex: 1;
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin-top: 5px;
     padding: 5px 20px 0px 20px;
     text-align: center;
+    transition: ease-in 1s;
   }
   
   .card img {
