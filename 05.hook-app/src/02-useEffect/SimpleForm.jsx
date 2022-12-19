@@ -5,8 +5,8 @@ import { Message } from './Message';
 export const SimpleForm = () => {
 
     const [formState, setFormState] = useState({
-        username: 'ari',
-        email: 'ari@google.com'
+        username: 'strider',
+        email: 'fernando@google.com'
     });
 
     const { username, email } = formState;
@@ -51,7 +51,7 @@ export const SimpleForm = () => {
             <input 
                 type="email" 
                 className="form-control mt-2"
-                placeholder="ari@google.com"
+                placeholder="fernando@google.com"
                 name="email"
                 value={ email }
                 onChange={ onInputChange }
@@ -59,7 +59,7 @@ export const SimpleForm = () => {
 
 
             {
-                (username === 'ari2' ) && <Message />
+                (username === 'strider2' ) && <Message />
             }
 
         </>

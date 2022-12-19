@@ -30,7 +30,7 @@ export const FormWithCustomHook = () => {
             <input 
                 type="email" 
                 className="form-control mt-2"
-                placeholder="ari@google.com"
+                placeholder="fernando@google.com"
                 name="email"
                 value={ email }
                 onChange={ onInputChange }
@@ -46,7 +46,7 @@ export const FormWithCustomHook = () => {
             />
 
 
-            <button onClick={ onResetForm } className="btn btn-primary mt-2">Reset</button>
+            <button onClick={ onResetForm } className="btn btn-primary mt-2">Borrar</button>
 
         </>
     )
